@@ -1,4 +1,5 @@
 #!/bin/env python
+from flask import Flask, render_template
 from app import create_app, socketio
 
 # app = create_app(debug=True)
